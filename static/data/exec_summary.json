@@ -1,0 +1,15 @@
+{
+  "total_vendors": 126,
+  "total_spend": 321900765.52999884,
+  "total_sales": 452062847.07011557,
+  "gross_profit": 130162081.54011668,
+  "overall_margin_pct": 28.79291726442814,
+  "avg_lead_time_days": 7.74859885117065,
+  "total_freight": 1640474.6900000004,
+  "overall_freight_ratio": 0.5096212453235436,
+  "tier_counts": {
+    "Tier 2: Preferred": 64,
+    "Tier 3: Moderate Risk": 33,
+    "Tier 4: High Risk": 29
+  }
+}

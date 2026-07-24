@@ -1,0 +1,902 @@
+[
+  {
+    "Brand": 1233,
+    "Description": "Jack Daniels No 7 Black",
+    "VendorName": "BROWN-FORMAN CORP          ",
+    "VendorNumber": 1128,
+    "TotalPurchasedUnits": 145080.0,
+    "TotalSpendDollars": 3811251.599999997,
+    "AvgPurchasePrice": 26.270000000000305
+  },
+  {
+    "Brand": 3405,
+    "Description": "Tito's Handmade Vodka",
+    "VendorName": "MARTIGNETTI COMPANIES",
+    "VendorNumber": 4425,
+    "TotalPurchasedUnits": 164038.0,
+    "TotalSpendDollars": 3804041.220000006,
+    "AvgPurchasePrice": 23.190000000000037
+  },
+  {
+    "Brand": 8068,
+    "Description": "Absolut 80 Proof",
+    "VendorName": "PERNOD RICARD USA          ",
+    "VendorNumber": 17035,
+    "TotalPurchasedUnits": 187407.0,
+    "TotalSpendDollars": 3418303.6800000006,
+    "AvgPurchasePrice": 18.23999999999982
+  },
+  {
+    "Brand": 4261,
+    "Description": "Capt Morgan Spiced Rum",
+    "VendorName": "DIAGEO NORTH AMERICA INC   ",
+    "VendorNumber": 3960,
+    "TotalPurchasedUnits": 201682.0,
+    "TotalSpendDollars": 3261197.939999998,
+    "AvgPurchasePrice": 16.170000000000062
+  },
+  {
+    "Brand": 3545,
+    "Description": "Ketel One Vodka",
+    "VendorName": "DIAGEO NORTH AMERICA INC   ",
+    "VendorNumber": 3960,
+    "TotalPurchasedUnits": 138109.0,
+    "TotalSpendDollars": 3023206.010000002,
+    "AvgPurchasePrice": 21.88999999999992
+  },
+  {
+    "Brand": 3858,
+    "Description": "Grey Goose Vodka",
+    "VendorName": "BACARDI USA INC            ",
+    "VendorNumber": 480,
+    "TotalPurchasedUnits": 138809.0,
+    "TotalSpendDollars": 2466635.9299999997,
+    "AvgPurchasePrice": 17.77000000000012
+  },
+  {
+    "Brand": 2589,
+    "Description": "Jameson Irish Whiskey",
+    "VendorName": "PERNOD RICARD USA          ",
+    "VendorNumber": 17035,
+    "TotalPurchasedUnits": 70783.0,
+    "TotalSpendDollars": 2177285.0799999973,
+    "AvgPurchasePrice": 30.760000000000176
+  },
+  {
+    "Brand": 3102,
+    "Description": "Smirnoff Traveler",
+    "VendorName": "DIAGEO NORTH AMERICA INC   ",
+    "VendorNumber": 3960,
+    "TotalPurchasedUnits": 161386.0,
+    "TotalSpendDollars": 2088334.8400000012,
+    "AvgPurchasePrice": 12.939999999999925
+  },
+  {
+    "Brand": 3489,
+    "Description": "Tanqueray",
+    "VendorName": "DIAGEO NORTH AMERICA INC   ",
+    "VendorNumber": 3960,
+    "TotalPurchasedUnits": 91835.0,
+    "TotalSpendDollars": 1903739.5500000005,
+    "AvgPurchasePrice": 20.72999999999974
+  },
+  {
+    "Brand": 1376,
+    "Description": "Jim Beam",
+    "VendorName": "JIM BEAM BRANDS COMPANY    ",
+    "VendorNumber": 12546,
+    "TotalPurchasedUnits": 108866.0,
+    "TotalSpendDollars": 1773427.14,
+    "AvgPurchasePrice": 16.290000000000063
+  },
+  {
+    "Brand": 2585,
+    "Description": "Jameson Irish Whiskey",
+    "VendorName": "PERNOD RICARD USA          ",
+    "VendorNumber": 17035,
+    "TotalPurchasedUnits": 93205.0,
+    "TotalSpendDollars": 1530426.0999999987,
+    "AvgPurchasePrice": 16.42000000000006
+  },
+  {
+    "Brand": 2757,
+    "Description": "Johnnie Walker Red Label",
+    "VendorName": "DIAGEO NORTH AMERICA INC   ",
+    "VendorNumber": 3960,
+    "TotalPurchasedUnits": 66942.0,
+    "TotalSpendDollars": 1498161.9599999976,
+    "AvgPurchasePrice": 22.380000000000038
+  },
+  {
+    "Brand": 2663,
+    "Description": "Dewars White Label",
+    "VendorName": "BACARDI USA INC            ",
+    "VendorNumber": 480,
+    "TotalPurchasedUnits": 69001.0,
+    "TotalSpendDollars": 1478001.4199999983,
+    "AvgPurchasePrice": 21.42000000000006
+  },
+  {
+    "Brand": 6570,
+    "Description": "Kendall Jackson Chard Vt RSV",
+    "VendorName": "MAJESTIC FINE WINES        ",
+    "VendorNumber": 10000,
+    "TotalPurchasedUnits": 215668.0,
+    "TotalSpendDollars": 1460072.3599999999,
+    "AvgPurchasePrice": 6.7699999999999925
+  },
+  {
+    "Brand": 3650,
+    "Description": "Patron Silver Tequila",
+    "VendorName": "ULTRA BEVERAGE COMPANY LLP ",
+    "VendorNumber": 9165,
+    "TotalPurchasedUnits": 42951.0,
+    "TotalSpendDollars": 1452173.3100000026,
+    "AvgPurchasePrice": 33.810000000000095
+  },
+  {
+    "Brand": 2753,
+    "Description": "Johnnie Walker Black Label",
+    "VendorName": "DIAGEO NORTH AMERICA INC   ",
+    "VendorNumber": 3960,
+    "TotalPurchasedUnits": 31596.0,
+    "TotalSpendDollars": 1414552.9199999995,
+    "AvgPurchasePrice": 44.77000000000019
+  },
+  {
+    "Brand": 5364,
+    "Description": "Kahlua",
+    "VendorName": "PERNOD RICARD USA          ",
+    "VendorNumber": 17035,
+    "TotalPurchasedUnits": 60645.0,
+    "TotalSpendDollars": 1399080.1499999997,
+    "AvgPurchasePrice": 23.06999999999985
+  },
+  {
+    "Brand": 8082,
+    "Description": "Baileys Irish Cream",
+    "VendorName": "DIAGEO NORTH AMERICA INC   ",
+    "VendorNumber": 3960,
+    "TotalPurchasedUnits": 64249.0,
+    "TotalSpendDollars": 1396130.77,
+    "AvgPurchasePrice": 21.729999999999794
+  },
+  {
+    "Brand": 8680,
+    "Description": "Crown Royal",
+    "VendorName": "DIAGEO NORTH AMERICA INC   ",
+    "VendorNumber": 3960,
+    "TotalPurchasedUnits": 47546.0,
+    "TotalSpendDollars": 1373128.4799999974,
+    "AvgPurchasePrice": 28.879999999999832
+  },
+  {
+    "Brand": 4260,
+    "Description": "Capt Morgan Original Barrel",
+    "VendorName": "DIAGEO NORTH AMERICA INC   ",
+    "VendorNumber": 3960,
+    "TotalPurchasedUnits": 79078.0,
+    "TotalSpendDollars": 1317439.4799999997,
+    "AvgPurchasePrice": 16.66
+  },
+  {
+    "Brand": 3348,
+    "Description": "Bombay Sapphire Gin",
+    "VendorName": "BACARDI USA INC            ",
+    "VendorNumber": 480,
+    "TotalPurchasedUnits": 57349.0,
+    "TotalSpendDollars": 1283470.6199999985,
+    "AvgPurchasePrice": 22.380000000000035
+  },
+  {
+    "Brand": 3857,
+    "Description": "Grey Goose Vodka",
+    "VendorName": "BACARDI USA INC            ",
+    "VendorNumber": 480,
+    "TotalPurchasedUnits": 33388.0,
+    "TotalSpendDollars": 1277758.7599999998,
+    "AvgPurchasePrice": 38.270000000000245
+  },
+  {
+    "Brand": 8112,
+    "Description": "Stolichnaya",
+    "VendorName": "STOLI GROUP,(USA) LLC      ",
+    "VendorNumber": 8664,
+    "TotalPurchasedUnits": 61936.0,
+    "TotalSpendDollars": 1208990.7200000002,
+    "AvgPurchasePrice": 19.520000000000227
+  },
+  {
+    "Brand": 126,
+    "Description": "Grey Goose Vodka",
+    "VendorName": "BACARDI USA INC            ",
+    "VendorNumber": 480,
+    "TotalPurchasedUnits": 59878.0,
+    "TotalSpendDollars": 1205942.9199999974,
+    "AvgPurchasePrice": 20.140000000000065
+  },
+  {
+    "Brand": 3512,
+    "Description": "Pinnacle Vodka",
+    "VendorName": "JIM BEAM BRANDS COMPANY    ",
+    "VendorNumber": 12546,
+    "TotalPurchasedUnits": 101480.0,
+    "TotalSpendDollars": 1193404.7999999996,
+    "AvgPurchasePrice": 11.760000000000145
+  },
+  {
+    "Brand": 2120,
+    "Description": "Canadian Club",
+    "VendorName": "JIM BEAM BRANDS COMPANY    ",
+    "VendorNumber": 12546,
+    "TotalPurchasedUnits": 97473.0,
+    "TotalSpendDollars": 1190145.3299999996,
+    "AvgPurchasePrice": 12.210000000000033
+  },
+  {
+    "Brand": 8159,
+    "Description": "Jose Cuervo Especial",
+    "VendorName": "PROXIMO SPIRITS INC.       ",
+    "VendorNumber": 7245,
+    "TotalPurchasedUnits": 59088.0,
+    "TotalSpendDollars": 1163442.719999999,
+    "AvgPurchasePrice": 19.68999999999987
+  },
+  {
+    "Brand": 4243,
+    "Description": "Bacardi Superior Rum",
+    "VendorName": "BACARDI USA INC            ",
+    "VendorNumber": 480,
+    "TotalPurchasedUnits": 76389.0,
+    "TotalSpendDollars": 1106876.6100000003,
+    "AvgPurchasePrice": 14.489999999999855
+  },
+  {
+    "Brand": 6654,
+    "Description": "Veuve Clicquot Brut Yellow",
+    "VendorName": "MOET HENNESSY USA INC      ",
+    "VendorNumber": 8112,
+    "TotalPurchasedUnits": 40380.0,
+    "TotalSpendDollars": 1098335.9999999998,
+    "AvgPurchasePrice": 27.199999999999953
+  },
+  {
+    "Brand": 8512,
+    "Description": "Baileys Irish Cream",
+    "VendorName": "DIAGEO NORTH AMERICA INC   ",
+    "VendorNumber": 3960,
+    "TotalPurchasedUnits": 72952.0,
+    "TotalSpendDollars": 1073853.4399999978,
+    "AvgPurchasePrice": 14.719999999999965
+  },
+  {
+    "Brand": 3802,
+    "Description": "Three Olives Vodka",
+    "VendorName": "PROXIMO SPIRITS INC.       ",
+    "VendorNumber": 7245,
+    "TotalPurchasedUnits": 77066.0,
+    "TotalSpendDollars": 1034996.3800000008,
+    "AvgPurchasePrice": 13.430000000000048
+  },
+  {
+    "Brand": 3826,
+    "Description": "Skyy Vodka",
+    "VendorName": "CAMPARI AMERICA            ",
+    "VendorNumber": 11567,
+    "TotalPurchasedUnits": 65382.0,
+    "TotalSpendDollars": 1029112.6800000009,
+    "AvgPurchasePrice": 15.739999999999847
+  },
+  {
+    "Brand": 42188,
+    "Description": "Moet & Chandon Nectar Imp Rs",
+    "VendorName": "MOET HENNESSY USA INC      ",
+    "VendorNumber": 8112,
+    "TotalPurchasedUnits": 29829.0,
+    "TotalSpendDollars": 1014484.2899999997,
+    "AvgPurchasePrice": 34.01000000000005
+  },
+  {
+    "Brand": 3423,
+    "Description": "Beefeater",
+    "VendorName": "PERNOD RICARD USA          ",
+    "VendorNumber": 17035,
+    "TotalPurchasedUnits": 46163.0,
+    "TotalSpendDollars": 980963.75,
+    "AvgPurchasePrice": 21.25
+  },
+  {
+    "Brand": 5138,
+    "Description": "Fireball Cinnamon Whisky",
+    "VendorName": "SAZERAC CO INC             ",
+    "VendorNumber": 8004,
+    "TotalPurchasedUnits": 87954.0,
+    "TotalSpendDollars": 976289.3999999996,
+    "AvgPurchasePrice": 11.099999999999959
+  },
+  {
+    "Brand": 5734,
+    "Description": "Malibu Rum",
+    "VendorName": "PERNOD RICARD USA          ",
+    "VendorNumber": 17035,
+    "TotalPurchasedUnits": 61639.0,
+    "TotalSpendDollars": 975128.9799999987,
+    "AvgPurchasePrice": 15.81999999999997
+  },
+  {
+    "Brand": 4227,
+    "Description": "Bacardi Superior Rum Trav",
+    "VendorName": "BACARDI USA INC            ",
+    "VendorNumber": 480,
+    "TotalPurchasedUnits": 68294.0,
+    "TotalSpendDollars": 967725.9799999999,
+    "AvgPurchasePrice": 14.17000000000003
+  },
+  {
+    "Brand": 3505,
+    "Description": "Tito's Handmade Vodka",
+    "VendorName": "MARTIGNETTI COMPANIES",
+    "VendorNumber": 4425,
+    "TotalPurchasedUnits": 69299.0,
+    "TotalSpendDollars": 953554.2400000002,
+    "AvgPurchasePrice": 13.760000000000122
+  },
+  {
+    "Brand": 1232,
+    "Description": "Jack Daniels No 7 Black",
+    "VendorName": "BROWN-FORMAN CORP          ",
+    "VendorNumber": 1128,
+    "TotalPurchasedUnits": 52932.0,
+    "TotalSpendDollars": 843206.7600000029,
+    "AvgPurchasePrice": 15.92999999999999
+  },
+  {
+    "Brand": 1385,
+    "Description": "Makers Mark",
+    "VendorName": "JIM BEAM BRANDS COMPANY    ",
+    "VendorNumber": 12546,
+    "TotalPurchasedUnits": 41048.0,
+    "TotalSpendDollars": 839431.5999999999,
+    "AvgPurchasePrice": 20.449999999999925
+  },
+  {
+    "Brand": 5103,
+    "Description": "Fireball Cinnamon Whisky",
+    "VendorName": "SAZERAC CO INC             ",
+    "VendorNumber": 8004,
+    "TotalPurchasedUnits": 44198.0,
+    "TotalSpendDollars": 757553.7199999974,
+    "AvgPurchasePrice": 17.140000000000065
+  },
+  {
+    "Brand": 8000,
+    "Description": "The Glenlivet 12 Yr Single",
+    "VendorName": "PERNOD RICARD USA          ",
+    "VendorNumber": 17035,
+    "TotalPurchasedUnits": 13759.0,
+    "TotalSpendDollars": 742435.6399999999,
+    "AvgPurchasePrice": 53.959999999999994
+  },
+  {
+    "Brand": 2432,
+    "Description": "Crown Royal",
+    "VendorName": "DIAGEO NORTH AMERICA INC   ",
+    "VendorNumber": 3960,
+    "TotalPurchasedUnits": 41893.0,
+    "TotalSpendDollars": 736897.8700000008,
+    "AvgPurchasePrice": 17.590000000000053
+  },
+  {
+    "Brand": 5365,
+    "Description": "Kahlua",
+    "VendorName": "PERNOD RICARD USA          ",
+    "VendorNumber": 17035,
+    "TotalPurchasedUnits": 48583.0,
+    "TotalSpendDollars": 720971.7200000014,
+    "AvgPurchasePrice": 14.840000000000058
+  },
+  {
+    "Brand": 3876,
+    "Description": "Smirnoff 80 Proof",
+    "VendorName": "DIAGEO NORTH AMERICA INC   ",
+    "VendorNumber": 3960,
+    "TotalPurchasedUnits": 50962.0,
+    "TotalSpendDollars": 710919.9,
+    "AvgPurchasePrice": 13.949999999999909
+  },
+  {
+    "Brand": 3913,
+    "Description": "Svedka Vodka",
+    "VendorName": "CONSTELLATION BRANDS INC   ",
+    "VendorNumber": 1392,
+    "TotalPurchasedUnits": 48481.0,
+    "TotalSpendDollars": 692308.6800000003,
+    "AvgPurchasePrice": 14.280000000000008
+  },
+  {
+    "Brand": 3522,
+    "Description": "Platinum 7X Distilled Vodka",
+    "VendorName": "SAZERAC CO INC             ",
+    "VendorNumber": 8004,
+    "TotalPurchasedUnits": 71899.0,
+    "TotalSpendDollars": 691668.3800000002,
+    "AvgPurchasePrice": 9.619999999999916
+  },
+  {
+    "Brand": 2114,
+    "Description": "Black Velvet Canadian Whisky",
+    "VendorName": "CONSTELLATION BRANDS INC   ",
+    "VendorNumber": 1392,
+    "TotalPurchasedUnits": 73227.0,
+    "TotalSpendDollars": 689066.0700000001,
+    "AvgPurchasePrice": 9.409999999999942
+  },
+  {
+    "Brand": 11219,
+    "Description": "Josh Cellars Cab Svgn Sonoma",
+    "VendorName": "MARTIGNETTI COMPANIES",
+    "VendorNumber": 4425,
+    "TotalPurchasedUnits": 80030.0,
+    "TotalSpendDollars": 675453.1999999993,
+    "AvgPurchasePrice": 8.440000000000042
+  },
+  {
+    "Brand": 3893,
+    "Description": "Zhenka 80 Proof",
+    "VendorName": "M S WALKER INC             ",
+    "VendorNumber": 9552,
+    "TotalPurchasedUnits": 81447.0,
+    "TotalSpendDollars": 645874.710000003,
+    "AvgPurchasePrice": 7.929999999999988
+  },
+  {
+    "Brand": 811,
+    "Description": "Jack Daniels No 7 Black",
+    "VendorName": "BROWN-FORMAN CORP          ",
+    "VendorNumber": 1128,
+    "TotalPurchasedUnits": 32554.0,
+    "TotalSpendDollars": 645871.360000001,
+    "AvgPurchasePrice": 19.840000000000035
+  },
+  {
+    "Brand": 2443,
+    "Description": "Seagrams VO",
+    "VendorName": "DIAGEO NORTH AMERICA INC   ",
+    "VendorNumber": 3960,
+    "TotalPurchasedUnits": 47654.0,
+    "TotalSpendDollars": 642375.9199999996,
+    "AvgPurchasePrice": 13.479999999999881
+  },
+  {
+    "Brand": 2127,
+    "Description": "Canadian Ltd",
+    "VendorName": "SAZERAC NORTH AMERICA INC. ",
+    "VendorNumber": 660,
+    "TotalPurchasedUnits": 86887.0,
+    "TotalSpendDollars": 624717.5299999992,
+    "AvgPurchasePrice": 7.190000000000041
+  },
+  {
+    "Brand": 6682,
+    "Description": "R M Woodbridge Chard Cal",
+    "VendorName": "CONSTELLATION BRANDS INC   ",
+    "VendorNumber": 1392,
+    "TotalPurchasedUnits": 101547.0,
+    "TotalSpendDollars": 612328.4100000004,
+    "AvgPurchasePrice": 6.030000000000039
+  },
+  {
+    "Brand": 3798,
+    "Description": "Ciroc Apple Vodka",
+    "VendorName": "DIAGEO NORTH AMERICA INC   ",
+    "VendorNumber": 3960,
+    "TotalPurchasedUnits": 30830.0,
+    "TotalSpendDollars": 611358.8999999996,
+    "AvgPurchasePrice": 19.829999999999973
+  },
+  {
+    "Brand": 4262,
+    "Description": "Capt Morgan Spiced Rum",
+    "VendorName": "DIAGEO NORTH AMERICA INC   ",
+    "VendorNumber": 3960,
+    "TotalPurchasedUnits": 54552.0,
+    "TotalSpendDollars": 610436.879999999,
+    "AvgPurchasePrice": 11.190000000000028
+  },
+  {
+    "Brand": 2015,
+    "Description": "Jack Daniels Tennessee Honey",
+    "VendorName": "BROWN-FORMAN CORP          ",
+    "VendorNumber": 1128,
+    "TotalPurchasedUnits": 33715.0,
+    "TotalSpendDollars": 610241.4999999993,
+    "AvgPurchasePrice": 18.099999999999945
+  },
+  {
+    "Brand": 1737,
+    "Description": "Makers Mark",
+    "VendorName": "JIM BEAM BRANDS COMPANY    ",
+    "VendorNumber": 12546,
+    "TotalPurchasedUnits": 17537.0,
+    "TotalSpendDollars": 601519.1000000003,
+    "AvgPurchasePrice": 34.30000000000008
+  },
+  {
+    "Brand": 38370,
+    "Description": "Oyster Bay Svgn Bl Marlboro",
+    "VendorName": "MARTIGNETTI COMPANIES",
+    "VendorNumber": 4425,
+    "TotalPurchasedUnits": 91140.0,
+    "TotalSpendDollars": 600612.6000000004,
+    "AvgPurchasePrice": 6.589999999999983
+  },
+  {
+    "Brand": 6937,
+    "Description": "Cavit Pinot Grigio",
+    "VendorName": "PALM BAY INTERNATIONAL INC ",
+    "VendorNumber": 6785,
+    "TotalPurchasedUnits": 88752.0,
+    "TotalSpendDollars": 599076.0,
+    "AvgPurchasePrice": 6.75
+  },
+  {
+    "Brand": 4689,
+    "Description": "Hennessy Privilege VSOP",
+    "VendorName": "MOET HENNESSY USA INC      ",
+    "VendorNumber": 8112,
+    "TotalPurchasedUnits": 17838.0,
+    "TotalSpendDollars": 594540.5400000002,
+    "AvgPurchasePrice": 33.32999999999997
+  },
+  {
+    "Brand": 3040,
+    "Description": "Tito's Handmade Vodka",
+    "VendorName": "MARTIGNETTI COMPANIES",
+    "VendorNumber": 4425,
+    "TotalPurchasedUnits": 35922.0,
+    "TotalSpendDollars": 594149.8800000008,
+    "AvgPurchasePrice": 16.53999999999997
+  },
+  {
+    "Brand": 3625,
+    "Description": "Absolut 80 Proof",
+    "VendorName": "PERNOD RICARD USA          ",
+    "VendorNumber": 17035,
+    "TotalPurchasedUnits": 45969.0,
+    "TotalSpendDollars": 578749.7100000012,
+    "AvgPurchasePrice": 12.590000000000044
+  },
+  {
+    "Brand": 7865,
+    "Description": "Moet & Chandon Imperial",
+    "VendorName": "MOET HENNESSY USA INC      ",
+    "VendorNumber": 8112,
+    "TotalPurchasedUnits": 24088.0,
+    "TotalSpendDollars": 577389.36,
+    "AvgPurchasePrice": 23.969999999999963
+  },
+  {
+    "Brand": 1346,
+    "Description": "Knob Creek Bourbon",
+    "VendorName": "JIM BEAM BRANDS COMPANY    ",
+    "VendorNumber": 12546,
+    "TotalPurchasedUnits": 25540.0,
+    "TotalSpendDollars": 575927.0000000002,
+    "AvgPurchasePrice": 22.550000000000104
+  },
+  {
+    "Brand": 5299,
+    "Description": "Southern Comfort",
+    "VendorName": "SAZERAC CO INC             ",
+    "VendorNumber": 8004,
+    "TotalPurchasedUnits": 36909.0,
+    "TotalSpendDollars": 563231.34,
+    "AvgPurchasePrice": 15.26000000000011
+  },
+  {
+    "Brand": 5242,
+    "Description": "Cointreau Liqueur",
+    "VendorName": "REMY COINTREAU USA INC     ",
+    "VendorNumber": 7239,
+    "TotalPurchasedUnits": 25361.0,
+    "TotalSpendDollars": 559210.0499999997,
+    "AvgPurchasePrice": 22.050000000000065
+  },
+  {
+    "Brand": 4722,
+    "Description": "Remy Martin VSOP Cognac",
+    "VendorName": "REMY COINTREAU USA INC     ",
+    "VendorNumber": 7239,
+    "TotalPurchasedUnits": 19910.0,
+    "TotalSpendDollars": 552900.7000000002,
+    "AvgPurchasePrice": 27.76999999999999
+  },
+  {
+    "Brand": 6967,
+    "Description": "Santa Margherita Pnt Grigio",
+    "VendorName": "MARTIGNETTI COMPANIES",
+    "VendorNumber": 4425,
+    "TotalPurchasedUnits": 46257.0,
+    "TotalSpendDollars": 549995.7300000001,
+    "AvgPurchasePrice": 11.890000000000024
+  },
+  {
+    "Brand": 3630,
+    "Description": "Stolichnaya Razberi",
+    "VendorName": "STOLI GROUP,(USA) LLC      ",
+    "VendorNumber": 8664,
+    "TotalPurchasedUnits": 27479.0,
+    "TotalSpendDollars": 544908.5700000013,
+    "AvgPurchasePrice": 19.829999999999938
+  },
+  {
+    "Brand": 2760,
+    "Description": "Jack Daniels Tennessee Honey",
+    "VendorName": "BROWN-FORMAN CORP          ",
+    "VendorNumber": 1128,
+    "TotalPurchasedUnits": 19219.0,
+    "TotalSpendDollars": 538516.3800000002,
+    "AvgPurchasePrice": 28.020000000000074
+  },
+  {
+    "Brand": 8178,
+    "Description": "Bulleit Bourbon",
+    "VendorName": "DIAGEO NORTH AMERICA INC   ",
+    "VendorNumber": 3960,
+    "TotalPurchasedUnits": 28421.0,
+    "TotalSpendDollars": 526072.7100000002,
+    "AvgPurchasePrice": 18.51000000000006
+  },
+  {
+    "Brand": 5445,
+    "Description": "Jagermeister Liqueur",
+    "VendorName": "SIDNEY FRANK IMPORTING CO  ",
+    "VendorNumber": 3089,
+    "TotalPurchasedUnits": 44330.0,
+    "TotalSpendDollars": 521320.8000000002,
+    "AvgPurchasePrice": 11.760000000000044
+  },
+  {
+    "Brand": 14006,
+    "Description": "Apothic Winemakers Red Blend",
+    "VendorName": "E & J GALLO WINERY         ",
+    "VendorNumber": 3252,
+    "TotalPurchasedUnits": 94779.0,
+    "TotalSpendDollars": 515597.75999999954,
+    "AvgPurchasePrice": 5.440000000000039
+  },
+  {
+    "Brand": 3238,
+    "Description": "Hendrick's Gin",
+    "VendorName": "WILLIAM GRANT & SONS INC   ",
+    "VendorNumber": 3664,
+    "TotalPurchasedUnits": 22352.0,
+    "TotalSpendDollars": 510296.16000000044,
+    "AvgPurchasePrice": 22.829999999999945
+  },
+  {
+    "Brand": 3980,
+    "Description": "Hornitos Reposado Tequila",
+    "VendorName": "JIM BEAM BRANDS COMPANY    ",
+    "VendorNumber": 12546,
+    "TotalPurchasedUnits": 15805.0,
+    "TotalSpendDollars": 505601.95000000007,
+    "AvgPurchasePrice": 31.98999999999986
+  },
+  {
+    "Brand": 3776,
+    "Description": "Jose Cuervo Especial Silver",
+    "VendorName": "PROXIMO SPIRITS INC.       ",
+    "VendorNumber": 7245,
+    "TotalPurchasedUnits": 26795.0,
+    "TotalSpendDollars": 497315.20000000065,
+    "AvgPurchasePrice": 18.559999999999985
+  },
+  {
+    "Brand": 3746,
+    "Description": "Gordons Vodka 80 Proof",
+    "VendorName": "DIAGEO NORTH AMERICA INC   ",
+    "VendorNumber": 3960,
+    "TotalPurchasedUnits": 58309.0,
+    "TotalSpendDollars": 496792.6800000007,
+    "AvgPurchasePrice": 8.520000000000028
+  },
+  {
+    "Brand": 3728,
+    "Description": "Absolut Citron",
+    "VendorName": "PERNOD RICARD USA          ",
+    "VendorNumber": 17035,
+    "TotalPurchasedUnits": 25959.0,
+    "TotalSpendDollars": 491403.87000000244,
+    "AvgPurchasePrice": 18.93000000000005
+  },
+  {
+    "Brand": 3243,
+    "Description": "Burnetts Vodka",
+    "VendorName": "HEAVEN HILL DISTILLERIES   ",
+    "VendorNumber": 3924,
+    "TotalPurchasedUnits": 57575.0,
+    "TotalSpendDollars": 475569.5000000001,
+    "AvgPurchasePrice": 8.260000000000113
+  },
+  {
+    "Brand": 5440,
+    "Description": "Jagermeister Liqueur",
+    "VendorName": "SIDNEY FRANK IMPORTING CO  ",
+    "VendorNumber": 3089,
+    "TotalPurchasedUnits": 18298.0,
+    "TotalSpendDollars": 474284.1599999996,
+    "AvgPurchasePrice": 25.92000000000005
+  },
+  {
+    "Brand": 4245,
+    "Description": "Bacardi Superior Rum",
+    "VendorName": "BACARDI USA INC            ",
+    "VendorNumber": 480,
+    "TotalPurchasedUnits": 58816.0,
+    "TotalSpendDollars": 466410.88000000024,
+    "AvgPurchasePrice": 7.929999999999998
+  },
+  {
+    "Brand": 36378,
+    "Description": "MezzaCorona Pnt Grigio",
+    "VendorName": "ULTRA BEVERAGE COMPANY LLP ",
+    "VendorNumber": 9165,
+    "TotalPurchasedUnits": 68084.0,
+    "TotalSpendDollars": 465013.72000000044,
+    "AvgPurchasePrice": 6.829999999999958
+  },
+  {
+    "Brand": 4198,
+    "Description": "Sailor Jerry Spiced Navy Rum",
+    "VendorName": "WILLIAM GRANT & SONS INC   ",
+    "VendorNumber": 3664,
+    "TotalPurchasedUnits": 25998.0,
+    "TotalSpendDollars": 455224.9800000003,
+    "AvgPurchasePrice": 17.510000000000108
+  },
+  {
+    "Brand": 24325,
+    "Description": "La Crema Chard Sonoma Cst",
+    "VendorName": "MAJESTIC FINE WINES        ",
+    "VendorNumber": 10000,
+    "TotalPurchasedUnits": 41274.0,
+    "TotalSpendDollars": 449061.12000000005,
+    "AvgPurchasePrice": 10.880000000000047
+  },
+  {
+    "Brand": 5735,
+    "Description": "Malibu Rum",
+    "VendorName": "PERNOD RICARD USA          ",
+    "VendorNumber": 17035,
+    "TotalPurchasedUnits": 48121.0,
+    "TotalSpendDollars": 447044.09,
+    "AvgPurchasePrice": 9.289999999999974
+  },
+  {
+    "Brand": 5342,
+    "Description": "Grand Marnier",
+    "VendorName": "MOET HENNESSY USA INC      ",
+    "VendorNumber": 8112,
+    "TotalPurchasedUnits": 22234.0,
+    "TotalSpendDollars": 441344.8999999999,
+    "AvgPurchasePrice": 19.84999999999995
+  },
+  {
+    "Brand": 5311,
+    "Description": "Amaretto DiSaronno",
+    "VendorName": "DISARONNO INTERNATIONAL LLC",
+    "VendorNumber": 2555,
+    "TotalPurchasedUnits": 18409.0,
+    "TotalSpendDollars": 436293.3,
+    "AvgPurchasePrice": 23.699999999999903
+  },
+  {
+    "Brand": 19748,
+    "Description": "Clos du Bois Chard",
+    "VendorName": "CONSTELLATION BRANDS INC   ",
+    "VendorNumber": 1392,
+    "TotalPurchasedUnits": 47153.0,
+    "TotalSpendDollars": 433807.6,
+    "AvgPurchasePrice": 9.19999999999999
+  },
+  {
+    "Brand": 3668,
+    "Description": "Belvedere Polish Vodka",
+    "VendorName": "MOET HENNESSY USA INC      ",
+    "VendorNumber": 8112,
+    "TotalPurchasedUnits": 12713.0,
+    "TotalSpendDollars": 433767.56000000023,
+    "AvgPurchasePrice": 34.11999999999991
+  },
+  {
+    "Brand": 2520,
+    "Description": "The Macallan 12 Yr Old",
+    "VendorName": "EDRINGTON AMERICAS         ",
+    "VendorNumber": 2561,
+    "TotalPurchasedUnits": 10227.0,
+    "TotalSpendDollars": 431681.6699999999,
+    "AvgPurchasePrice": 42.210000000000015
+  },
+  {
+    "Brand": 8202,
+    "Description": "Sambuca Romana",
+    "VendorName": "DIAGEO NORTH AMERICA INC   ",
+    "VendorNumber": 3960,
+    "TotalPurchasedUnits": 32375.0,
+    "TotalSpendDollars": 431558.74999999953,
+    "AvgPurchasePrice": 13.329999999999968
+  },
+  {
+    "Brand": 3276,
+    "Description": "Gordons London Dry",
+    "VendorName": "DIAGEO NORTH AMERICA INC   ",
+    "VendorNumber": 3960,
+    "TotalPurchasedUnits": 44631.0,
+    "TotalSpendDollars": 429350.2200000004,
+    "AvgPurchasePrice": 9.619999999999921
+  },
+  {
+    "Brand": 497,
+    "Description": "Capt Morgan Spiced Rum",
+    "VendorName": "DIAGEO NORTH AMERICA INC   ",
+    "VendorNumber": 3960,
+    "TotalPurchasedUnits": 29200.0,
+    "TotalSpendDollars": 429240.00000000047,
+    "AvgPurchasePrice": 14.699999999999983
+  },
+  {
+    "Brand": 1883,
+    "Description": "Seagrams 7 Crown",
+    "VendorName": "DIAGEO NORTH AMERICA INC   ",
+    "VendorNumber": 3960,
+    "TotalPurchasedUnits": 32253.0,
+    "TotalSpendDollars": 426707.1899999997,
+    "AvgPurchasePrice": 13.229999999999913
+  },
+  {
+    "Brand": 2767,
+    "Description": "Johnnie Walker Blue Label",
+    "VendorName": "DIAGEO NORTH AMERICA INC   ",
+    "VendorNumber": 3960,
+    "TotalPurchasedUnits": 2963.0,
+    "TotalSpendDollars": 413931.1,
+    "AvgPurchasePrice": 139.6999999999999
+  },
+  {
+    "Brand": 482,
+    "Description": "Absolut 80 Proof",
+    "VendorName": "PERNOD RICARD USA          ",
+    "VendorNumber": 17035,
+    "TotalPurchasedUnits": 28888.0,
+    "TotalSpendDollars": 412520.6400000006,
+    "AvgPurchasePrice": 14.280000000000038
+  },
+  {
+    "Brand": 8778,
+    "Description": "Bulleit Bourbon",
+    "VendorName": "DIAGEO NORTH AMERICA INC   ",
+    "VendorNumber": 3960,
+    "TotalPurchasedUnits": 10966.0,
+    "TotalSpendDollars": 408922.14000000025,
+    "AvgPurchasePrice": 37.28999999999997
+  },
+  {
+    "Brand": 1220,
+    "Description": "Woodford Reserve Bourbon",
+    "VendorName": "BROWN-FORMAN CORP          ",
+    "VendorNumber": 1128,
+    "TotalPurchasedUnits": 18645.0,
+    "TotalSpendDollars": 408139.04999999993,
+    "AvgPurchasePrice": 21.89000000000006
+  },
+  {
+    "Brand": 2418,
+    "Description": "Crown Royal Regal Apple",
+    "VendorName": "DIAGEO NORTH AMERICA INC   ",
+    "VendorNumber": 3960,
+    "TotalPurchasedUnits": 24558.0,
+    "TotalSpendDollars": 405943.7400000006,
+    "AvgPurchasePrice": 16.530000000000015
+  }
+]

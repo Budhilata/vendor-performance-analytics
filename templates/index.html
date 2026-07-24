@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vendor Performance Analytics & AI Intelligence</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <div class="brand-logo">
+                    <i data-lucide="shield-check" class="brand-icon"></i>
+                    <div class="brand-text">
+                        <span class="brand-title">VENDO<span class="highlight">ANALYTICS</span></span>
+                        <span class="brand-subtitle">Enterprise Performance Intelligence</span>
+                    </div>
+                </div>
+            </div>
+
+            <nav class="sidebar-nav">
+                <button class="nav-btn active" data-tab="overview">
+                    <i data-lucide="layout-dashboard"></i>
+                    <span>Executive Overview</span>
+                </button>
+                <button class="nav-btn" data-tab="directory">
+                    <i data-lucide="users"></i>
+                    <span>Vendor Directory</span>
+                </button>
+                <button class="nav-btn" data-tab="logistics">
+                    <i data-lucide="truck"></i>
+                    <span>Logistics & Lead Time</span>
+                </button>
+                <button class="nav-btn" data-tab="financials">
+                    <i data-lucide="dollar-sign"></i>
+                    <span>Financial Margins</span>
+                </button>
+                <button class="nav-btn" data-tab="simulator">
+                    <i data-lucide="cpu"></i>
+                    <span>ML Delay Predictor</span>
+                    <span class="badge-ai">AI</span>
+                </button>
+            </nav>
+
+            <div class="sidebar-footer">
+                <div class="dataset-info">
+                    <i data-lucide="database"></i>
+                    <div>
+                        <div class="dataset-name">Iowa Retail Dataset</div>
+                        <div class="dataset-rows">15.4M Records Processed</div>
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <!-- Top Header Bar -->
+            <header class="top-header">
+                <div class="header-title">
+                    <h1 id="page-title">Executive Performance Overview</h1>
+                    <p id="page-subtitle">Real-time vendor KPI tracking, lead time efficiency, and margin intelligence</p>
+                </div>
+                <div class="header-actions">
+                    <div class="status-indicator">
+                        <span class="pulse-dot"></span>
+                        <span class="status-text">Engine Online (DuckDB ETL)</span>
+                    </div>
+                    <button class="btn-refresh" id="btn-refresh-data" title="Reload Metrics">
+                        <i data-lucide="refresh-cw"></i>
+                    </button>
+                </div>
+            </header>
+
+            <!-- Executive KPI Cards -->
+            <section class="kpi-grid">
+                <div class="kpi-card text-emerald">
+                    <div class="kpi-icon"><i data-lucide="shopping-bag"></i></div>
+                    <div class="kpi-data">
+                        <span class="kpi-label">Total Spend (COGS)</span>
+                        <h2 class="kpi-value" id="kpi-spend">$0</h2>
+                        <span class="kpi-subtext"><i data-lucide="arrow-up-right"></i> 126 Active Vendors</span>
+                    </div>
+                </div>
+
+                <div class="kpi-card text-indigo">
+                    <div class="kpi-icon"><i data-lucide="trending-up"></i></div>
+                    <div class="kpi-data">
+                        <span class="kpi-label">Total Retail Sales</span>
+                        <h2 class="kpi-value" id="kpi-sales">$0</h2>
+                        <span class="kpi-subtext"><i data-lucide="check"></i> Point of Sale Revenue</span>
+                    </div>
+                </div>
+
+                <div class="kpi-card text-amber">
+                    <div class="kpi-icon"><i data-lucide="percent"></i></div>
+                    <div class="kpi-data">
+                        <span class="kpi-label">Gross Margin</span>
+                        <h2 class="kpi-value" id="kpi-margin">0.0%</h2>
+                        <span class="kpi-subtext" id="kpi-profit">$0 Net Margin</span>
+                    </div>
+                </div>
+
+                <div class="kpi-card text-rose">
+                    <div class="kpi-icon"><i data-lucide="clock"></i></div>
+                    <div class="kpi-data">
+                        <span class="kpi-label">Avg Lead Time</span>
+                        <h2 class="kpi-value" id="kpi-leadtime">0.0 Days</h2>
+                        <span class="kpi-subtext">PO Date to Receipt</span>
+                    </div>
+                </div>
+            </div >
+
+            <!-- TAB 1: EXECUTIVE OVERVIEW -->
+            <div class="tab-content active" id="tab-overview">
+                <!-- Top Visual Analytics Row -->
+                <div class="chart-row dual-chart">
+                    <div class="chart-card">
+                        <div class="chart-header">
+                            <h3><i data-lucide="bar-chart-3"></i> Top 10 Vendors by Spend & Sales Revenue</h3>
+                        </div>
+                        <div class="chart-body">
+                            <canvas id="chart-top-vendors"></canvas>
+                        </div>
+                    </div>
+                    <div class="chart-card">
+                        <div class="chart-header">
+                            <h3><i data-lucide="pie-chart"></i> Vendor Performance Tiers (VPI)</h3>
+                        </div>
+                        <div class="chart-body flex-center">
+                            <canvas id="chart-tiers"></canvas>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Monthly Spend & Lead Time Trends -->
+                <div class="chart-row">
+                    <div class="chart-card full-width">
+                        <div class="chart-header">
+                            <h3><i data-lucide="activity"></i> Monthly Purchasing & Lead Time Trend (2024)</h3>
+                        </div>
+                        <div class="chart-body">
+                            <canvas id="chart-monthly-trend"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- TAB 2: VENDOR DIRECTORY & SCORECARDS -->
+            <div class="tab-content" id="tab-directory">
+                <div class="directory-toolbar">
+                    <div class="search-box">
+                        <i data-lucide="search"></i>
+                        <input type="text" id="search-vendor" placeholder="Search by vendor name or ID...">
+                    </div>
+                    <div class="filter-group">
+                        <label>Tier Filter:</label>
+                        <select id="filter-tier">
+                            <option value="all">All Tiers</option>
+                            <option value="Tier 1">Tier 1: Strategic</option>
+                            <option value="Tier 2">Tier 2: Preferred</option>
+                            <option value="Tier 3">Tier 3: Moderate Risk</option>
+                            <option value="Tier 4">Tier 4: High Risk</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label>Sort By:</label>
+                        <select id="sort-vendors">
+                            <option value="TotalSpendDollars">Total Spend ($)</option>
+                            <option value="VPIScore">VPI Score (High to Low)</option>
+                            <option value="AvgLeadTimeDays">Lead Time (Low to High)</option>
+                            <option value="GrossMarginPct">Gross Margin (%)</option>
+                            <option value="FreightRatioPct">Freight Ratio (%)</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="table-container">
+                    <table class="data-table" id="table-vendors">
+                        <thead>
+                            <tr>
+                                <th>Vendor ID</th>
+                                <th>Vendor Name</th>
+                                <th>Tier</th>
+                                <th>VPI Score</th>
+                                <th>Total Spend ($)</th>
+                                <th>Total Sales ($)</th>
+                                <th>Lead Time</th>
+                                <th>Gross Margin</th>
+                                <th>Freight Ratio</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody id="vendor-table-body">
+                            <!-- Injected by JavaScript -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- TAB 3: LOGISTICS & LEAD TIME ANALYTICS -->
+            <div class="tab-content" id="tab-logistics">
+                <div class="chart-row dual-chart">
+                    <div class="chart-card">
+                        <div class="chart-header">
+                            <h3><i data-lucide="truck"></i> Delivery Lead Time Distribution Bins</h3>
+                        </div>
+                        <div class="chart-body flex-center">
+                            <canvas id="chart-leadtime-dist"></canvas>
+                        </div>
+                    </div>
+                    <div class="chart-card">
+                        <div class="chart-header">
+                            <h3><i data-lucide="alert-triangle"></i> Late Delivery Rate by Vendor</h3>
+                        </div>
+                        <div class="chart-body">
+                            <canvas id="chart-late-deliveries"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- TAB 4: FINANCIAL MARGINS & FREIGHT RATIO -->
+            <div class="tab-content" id="tab-financials">
+                <div class="chart-row">
+                    <div class="chart-card full-width">
+                        <div class="chart-header">
+                            <h3><i data-lucide="scatter-chart"></i> Gross Margin % vs Lead Time Scatter Analysis</h3>
+                        </div>
+                        <div class="chart-body">
+                            <canvas id="chart-margin-scatter"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- TAB 5: ML DELIVERY DELAY SIMULATOR -->
+            <div class="tab-content" id="tab-simulator">
+                <div class="simulator-grid">
+                    <!-- Form Input Card -->
+                    <div class="sim-card sim-form-card">
+                        <div class="sim-header">
+                            <i data-lucide="sparkles" class="sim-icon"></i>
+                            <div>
+                                <h3>AI Lead Time & Delay Simulator</h3>
+                                <p>Predict purchase order delivery lead times using machine learning</p>
+                            </div>
+                        </div>
+                        <form id="sim-form">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label>Select Vendor</label>
+                                    <select id="sim-vendor" class="form-control">
+                                        <!-- Populated via JS -->
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label>Destination Store ID</label>
+                                    <input type="number" id="sim-store" class="form-control" value="1" min="1" max="100">
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label>Item Classification ID</label>
+                                    <input type="number" id="sim-classification" class="form-control" value="1" min="1" max="10">
+                                </div>
+                                <div class="form-group">
+                                    <label>Order Quantity (Units)</label>
+                                    <input type="number" id="sim-quantity" class="form-control" value="250" min="1">
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label>Unit Purchase Price ($)</label>
+                                    <input type="number" id="sim-price" class="form-control" value="14.50" step="0.10" min="0.1">
+                                </div>
+                                <div class="form-group">
+                                    <label>Target Order Month</label>
+                                    <select id="sim-month" class="form-control">
+                                        <option value="1">January</option>
+                                        <option value="2">February</option>
+                                        <option value="3">March</option>
+                                        <option value="4">April</option>
+                                        <option value="5">May</option>
+                                        <option value="6" selected>June</option>
+                                        <option value="7">July</option>
+                                        <option value="8">August</option>
+                                        <option value="9">September</option>
+                                        <option value="10">October</option>
+                                        <option value="11">November</option>
+                                        <option value="12">December</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <button type="submit" class="btn-predict" id="btn-run-predict">
+                                <i data-lucide="play"></i> Run ML Delivery Prediction
+                            </button>
+                        </form>
+                    </div>
+
+                    <!-- Output Result Card -->
+                    <div class="sim-card sim-result-card" id="sim-result-box">
+                        <div class="result-placeholder">
+                            <i data-lucide="cpu" class="placeholder-icon"></i>
+                            <h4>Ready for Prediction</h4>
+                            <p>Select PO criteria and click 'Run ML Delivery Prediction' to generate model outputs.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Vendor Scorecard Detail Modal -->
+    <div class="modal-backdrop" id="vendor-modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div class="modal-title-group">
+                    <h2 id="modal-vendor-name">Vendor Scorecard</h2>
+                    <span class="badge" id="modal-vendor-tier">Tier 1</span>
+                </div>
+                <button class="modal-close" id="modal-close-btn">&times;</button>
+            </div>
+            <div class="modal-body" id="modal-body-content">
+                <!-- Injected by JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <script src="/static/js/main.js"></script>
+</body>
+</html>

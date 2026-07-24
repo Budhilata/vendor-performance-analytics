@@ -1,0 +1,86 @@
+[
+  {
+    "YearMonth": "2024-01",
+    "ActiveVendors": 111,
+    "MonthlyPurchasedUnits": 2130443.0,
+    "MonthlySpendDollars": 19138815.42000014,
+    "MonthlyAvgLeadTime": 7.825420425297984
+  },
+  {
+    "YearMonth": "2024-02",
+    "ActiveVendors": 111,
+    "MonthlyPurchasedUnits": 2242110.0,
+    "MonthlySpendDollars": 20147364.53000006,
+    "MonthlyAvgLeadTime": 7.861784969191208
+  },
+  {
+    "YearMonth": "2024-03",
+    "ActiveVendors": 107,
+    "MonthlyPurchasedUnits": 2199278.0,
+    "MonthlySpendDollars": 20252968.800000213,
+    "MonthlyAvgLeadTime": 7.369848660512235
+  },
+  {
+    "YearMonth": "2024-04",
+    "ActiveVendors": 109,
+    "MonthlyPurchasedUnits": 2328996.0,
+    "MonthlySpendDollars": 21798729.529999893,
+    "MonthlyAvgLeadTime": 7.463196597217216
+  },
+  {
+    "YearMonth": "2024-05",
+    "ActiveVendors": 113,
+    "MonthlyPurchasedUnits": 3011592.0,
+    "MonthlySpendDollars": 28693060.329999566,
+    "MonthlyAvgLeadTime": 7.743523532635451
+  },
+  {
+    "YearMonth": "2024-06",
+    "ActiveVendors": 109,
+    "MonthlyPurchasedUnits": 3038355.0,
+    "MonthlySpendDollars": 29699192.07000039,
+    "MonthlyAvgLeadTime": 7.539366999856177
+  },
+  {
+    "YearMonth": "2024-07",
+    "ActiveVendors": 107,
+    "MonthlyPurchasedUnits": 3252027.0,
+    "MonthlySpendDollars": 32193842.49999993,
+    "MonthlyAvgLeadTime": 7.863328569711378
+  },
+  {
+    "YearMonth": "2024-08",
+    "ActiveVendors": 114,
+    "MonthlyPurchasedUnits": 3224148.0,
+    "MonthlySpendDollars": 30747883.700000383,
+    "MonthlyAvgLeadTime": 7.600671233001984
+  },
+  {
+    "YearMonth": "2024-09",
+    "ActiveVendors": 117,
+    "MonthlyPurchasedUnits": 2906400.0,
+    "MonthlySpendDollars": 26840919.809999768,
+    "MonthlyAvgLeadTime": 7.38900158321789
+  },
+  {
+    "YearMonth": "2024-10",
+    "ActiveVendors": 112,
+    "MonthlyPurchasedUnits": 3086254.0,
+    "MonthlySpendDollars": 31836531.73999987,
+    "MonthlyAvgLeadTime": 7.881199781040449
+  },
+  {
+    "YearMonth": "2024-11",
+    "ActiveVendors": 113,
+    "MonthlyPurchasedUnits": 2673905.0,
+    "MonthlySpendDollars": 27252267.019999884,
+    "MonthlyAvgLeadTime": 7.619125546793014
+  },
+  {
+    "YearMonth": "2024-12",
+    "ActiveVendors": 114,
+    "MonthlyPurchasedUnits": 2785110.0,
+    "MonthlySpendDollars": 26349072.859999903,
+    "MonthlyAvgLeadTime": 7.208863128346416
+  }
+]
